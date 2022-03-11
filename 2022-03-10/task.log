@@ -43,3 +43,7 @@ Request method type
 
 Response status code
 	Status Code: 200 OK
+	
+Inspect and find category name
+	<a class="_2whKao" href="/audio-video/pr?sid=0pm&amp;marketplace=FLIPKART">Audio &amp; Video</a>
+	xpath://a[@class="_2whKao"]/text()
