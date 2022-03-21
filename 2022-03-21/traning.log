@@ -1,0 +1,12 @@
+meeting was conducted
+topic discussed about:
+how to write xpath and their functions
+one task was given:
+https://www.amazon.in/Xiaomi-Slimmest-Smartphone-Additional-Available/dp/B09G39YXFS
+product tittle://span[@id="productTitle"]/text().extract()
+product price://span[@class="a-price a-text-price a-size-medium apexPriceToPay"]//span[2]/text().extract()
+MRP price://span[@class="a-price a-text-price a-size-base"]//span[2]/text().extract()
+xiaomi store text://a[@id="bylineInfo"].extract()
+product rating://span[@data-hook="acr-average-stars-rating-text"]/text().extract()
+number of rating://a[@id="acrCustomerReviewLink"]/span/text().extract()
+ASIN://table[@id="productDetails_detailBullets_sections1"]/tbody/tr[1]/td/text().extract()
